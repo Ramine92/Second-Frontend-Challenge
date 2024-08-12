@@ -1,0 +1,117 @@
+body{
+  font-size: 18px;
+  font-family:'Hanken Grotesk',sans-serif;
+  background-color:hsl(0, 0%, 100%);
+}
+#app{
+  text-align: center;
+  margin-top: 150px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between; 
+}
+#result{
+  margin: 0px;
+  padding:20px;
+  color:white;
+  display:block;
+  border-radius: 15px;
+  background-color:hsla(256, 72%, 46%, 1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+#Summary{
+  padding:20px 90px;
+  display:block;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.result-circle{
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(255,255,255,0.1), rgba(0,0,0,0.3));
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5em;
+  margin: 0 auto;
+}
+.score {
+  font-weight: bold;
+  font-size: 2em;
+}
+#result-txt{
+  text-align: center;
+  color:hsl(0, 0%, 70%);
+}
+.out-of {
+  text-align: center;
+  color:hsl(0, 0%, 70%);
+  font-size:0.5em;
+  
+}
+
+.result-text h2 {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+.result-text p{
+  text-align: center;
+  color:hsl(0, 0%, 70%)
+}
+#reaction-sum{
+  color:hsl(0, 100%, 67%);
+  display: flex;
+  align-items: center;
+  padding: 0px 20px ;
+  border-radius: 15px;
+  background-color:hsl(0, 100%, 96%);
+  white-space: nowrap;
+}
+#memory-sum{
+  color:hsl(39, 100%, 56%);
+  display: flex;
+  align-items: center;
+  padding: 0px 20px ;
+  border-radius: 15px;
+  margin-top: 10px;
+  background-color:hsl(39, 100%, 96%);
+  white-space: nowrap;
+}
+#verbal-sum{
+  color:hsl(166, 100%, 37%);
+  display: flex;
+  align-items: center;
+  padding: 0px 20px ;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color:hsl(166, 100%, 96%);
+  white-space: nowrap;
+}
+#visual-sum{
+  color:hsl(234, 85%, 45%);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0px 20px ;
+  border-radius: 15px;
+  background-color:hsl(234, 85%, 96%);
+  white-space: nowrap;
+}
+.Continue-btn{
+  margin-top: 20px;
+  background-color:hsl(224, 30%, 27%);
+  color:white;
+  padding: 15px 100px;
+  border-radius: 20px;
+  cursor:pointer;
+}
